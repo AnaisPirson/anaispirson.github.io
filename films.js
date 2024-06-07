@@ -231,7 +231,7 @@ let horror = [{
     day:2,
     movie:'Grinch: The Mean One (2022)',
     image:'https://m.media-amazon.com/images/M/MV5BMTUxODA1NDMtNWM0YS00YzQ2LTlmMzgtNGExMTQ4NTE3ZjU2XkEyXkFqcGdeQXVyOTQzOTE5NTY@._V1_FMjpg_UY7200_.jpg',
-    description:"Cindy/'s parents are murdered by a bloodthirsty green figure in a Santa suit.",
+    description:"Cindy's parents are murdered by a bloodthirsty green figure in a Santa suit.",
     link: 'https://www.imdb.com/title/tt20853816/',
     rating: 3.8,
     genre:'Comedy/Horror'
