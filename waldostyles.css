@@ -7,16 +7,18 @@
   
   .container #startbtn {
     position: absolute;
-    top: 3%;
-    left: 94px;
+    top: 4%;
+    left: 8%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+    /* background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%); */
+    background: linear-gradient(to bottom, #673AB7 5%, #2d1d81 100%);
     background-color: #dfbdfa;
     color: white;
     font-size: 16px;
-    padding: 12px 24px;
-    border: 1px solid #9200fa;
+    padding: 12px 34px;
+    /* border: 1px solid #9200fa; */
+    border: 1px solid green;
     cursor: pointer;
     text-shadow: 0px 1px 0px #9752cc;
     border-radius: 5px;
@@ -171,7 +173,9 @@
   
   #restart {
     box-shadow: inset 0px 1px 0px 0px #f7c5c0;
-    background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+    background: linear-gradient(to bottom,    #6d1d16 5%, #e4685d 100%);
+    /* background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+  */
     background-color: #fc8d83;
     border-radius: 6px;
     border: 1px solid #d83526;
