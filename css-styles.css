@@ -57,7 +57,8 @@
 }
 
 .bg-light {
-  background-color: #fffbed;
+  background-color: #32db86!important;
+  
 }
 
 .bg-dark {
@@ -124,7 +125,8 @@ body {
   outline: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  color: #54555e;
+  /* color: #54555e; */
+  color:white;
   width: 100%;
   height: 100%;
 }
@@ -142,6 +144,13 @@ video {
   height: 100%;
   width: 100%;
 }
+
+
+ul#prodList li:nth-last-child(2){
+  color: #54555e;
+}
+
+
 
 /*-------------------------------------------------------*/
 /* Preloader
@@ -6478,4 +6487,8 @@ dd {
   position: fixed; /* or absolute */
   top: 50%;
   left: 50%;
+}
+
+.prod{
+  background-color:#32db86
 }

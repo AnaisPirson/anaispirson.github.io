@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Add to cart pages</title>
+     <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700%7CSource+Sans+Pro:400,600,700'
+    rel='stylesheet'>
+  <!-- Bootstrap-->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css-font-icons.css" />
+  <link rel="stylesheet" href="css-styles.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NFM8M4Q');</script>
+    <!-- End Google Tag Manager -->
+  <!-- End Google Tag Manager -->
+</head>
+<script src="index.js"></script>
+
+
+<body class="style-default style-rounded body-color">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFM8M4Q"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+        <main class="main oh" id="main">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-style">
+              <!-- Logo -->
+              <strong href="#" class="liveramp-logo">
+                /LiveRamp
+              </strong>
+        
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto navbar-options">
+                  <li id="navbar-home" class="nav-item active navbar-hover">
+                    <a class="nav-link nav-links" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li id="navbar-posts" class="nav-item active navbar-hover">
+                    <a class="nav-link nav-links" href="index2.html">Posts</a>
+                  </li>
+                  <li id="navbar-pages" class="nav-item active navbar-hover">
+                    <a class="nav-link nav-links" href="#">Pages</a>
+                  </li>
+                  <li id="navbar-features" class="nav-item active navbar-hover">
+                    <a class="nav-link nav-links" href="#">Features</a>
+                  </li>
+                  <!-- <li id="navbar-config" class="nav-item active navbar-hover">
+                    <a id="config-page-link" class="nav-link nav-links" href="configPage/configPage.html">Library
+                      Configuration</a>
+                  </li>
+                  <li id="navbar-validator" class="nav-item active navbar-hover">
+                    <a id="validator-page-link" class="nav-link nav-links" href="validator/validator.html">Library
+                      Validator</a>
+                  </li> -->
+                  <li class="user-email">
+                    <p id="userEmail"></p>
+                  </li>
+                </ul>
+        
+                <form class="form-inline my-2 my-lg-0 login-button">
+                  <div class="nav__right-item nav__search ">
+                    <i data-toggle="modal" data-target="#basicExampleModal"> <img
+                        src="https://img.icons8.com/material-outlined/24/000000/login-rounded-right.png"> Login</i>
+                    <div class="nav__search-box" id="nav__search-box">
+                      <div class="nav__search-form">
+                        <input type="text" placeholder="Search an article" class="nav__search-input">
+                        <button type="button" class="search-button btn btn-lg btn-color btn-button">
+                          <i class="ui-search nav__search-icon"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+        
+              </div>
+            </nav>
+        
+            <!-- Register modal -->
+            <div>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+        
+                <div class="modal-content register-modal">
+        
+                  <div class="modal-header">
+                    <h5 class="modal-title register-modal-title" id="exampleModalLabel">Sign up for the newsletter!</h5>
+                    <button type="button" class="close" data-dismiss="modal" class="close" aria-label="Close">
+                    </button>
+                  </div>
+        
+                  <div class="modal-body">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Please enter your Email address</label>
+                      <input type="email" class="form-control" id="registerEmail" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    </div>
+                  </div>
+        
+                  <div class="modal-footer register-modal-buttons">
+                    <button id="cancelModal" type="button" class="btn btn-secondary" data-dismiss="modal">No, thanks</button>
+                    <button id="submitModal" type="button" class="btn btn-primary" data-dismiss="modal">Sign up</button>
+                  </div>
+        
+                </div>
+              </div>
+              <!-- Modal -->
+        
+              <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+        
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Please log in</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+        
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                          placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">Login to continue!</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+        
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary" data-dismiss="modal" id="loginSubmitButton">Submit</button>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+                     <!-- Content -->
+                     <div class="title-wrap title-wrap--line ml-1">
+                        <h3 class="section-title">Catalogue</h3>
+        
+                        <div class="tabs tab-post__tabs">
+                          <ul class="tabs__list">
+                            <li class="tabs__item tabs__item--active">
+                              <a href="#tab-all" class="tabs__trigger"></a>
+                            </li>
+        
+                          </ul> <!-- end tabs -->
+                        </div>
+                      </div>
+
+                <div class="row m-1">
+                    <div class="col-sm-4">
+                      <div class="card prodCard" >
+                        <img src="/Users/apirso/Downloads/duck.png" class="card-img-top mx-auto d-block w-50" alt="ducky icon">
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary prod" id="prod1">Add to cart</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card prodCard">
+                        <img src="/Users/apirso/Downloads/zucchini.png" class="card-img-top mx-auto d-block w-50" alt="courgette icon">
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary prod" id="prod2">Add to cart</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card prodCard">
+                          <img src="/Users/apirso/Downloads/shark.png" class="card-img-top mx-auto d-block w-50" alt="shark icon">
+                          <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary prod"id="prod3">Add to cart</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    
+                  </div>
+      
+                  <div class="row">
+                    <div class="col-md-6 order-md-2 mb-4 mt-5">
+                      <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Your cart</span>
+                        <span class="badge badge-secondary badge-pill" id="totalItems">0</span>
+                      </h4>
+                      <ul class="list-group mb-3" id="prodList">
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                          <div>
+                            <h6 class="my-0">Product name</h6>
+                            <small class="text-muted">Brief description</small>
+                          </div>
+                          <span class="text-muted totalPrice">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                          <div>
+                            <h6 class="my-0">Second product</h6>
+                            <small class="text-muted">Brief description</small>
+                          </div>
+                          <span class="text-muted totalPrice">$8</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                          <div>
+                            <h6 class="my-0">Third item</h6>
+                            <small class="text-muted">Brief description</small>
+                          </div>
+                          <span class="text-muted totalPrice">$5</span>
+                        </li>
+                        
+                        <li class="list-group-item d-flex justify-content-between">
+                          <span>Total (USD)</span>
+                          <strong>$20</strong>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                          <button type="button" class="btn btn-secondary btn-lg btn-block" id="checkoutBtn">Checkout</button>
+                        </li>
+                      </ul>
+                
+                    </div>
+                    <div class="col-md-3 order-md-1">
+                      
+                    </div>
+                  </div>
+  
+   
+  
+          
+        </div> <!-- end content -->
+        <script src="pages.js"></script>
+</body>
+</html>
