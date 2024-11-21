@@ -4,8 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xmas Project</title>
+    <title>Where's Waldo?</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="waldostyles.css" />
 </head>
-<body>
-    <p>Hello World</p>
+
+    <body>
+        <div class="container">
+          <img
+            id="imgMap"
+            src="img/waldo-space-img.jpeg"
+            alt=" Wheres Waldo Game, Space Map."
+          />
+          <!-- <div class="circleDiv"> -->
+          <img class="circle" id="wendaCirc" src="img/circle.png" alt="circle" />
+          <img class="circle" id="waldoCirc" src="img/circle.png" alt="circle" />
+          <img class="circle" id="wizardCirc" src="img/circle.png" alt="circle" />
+          <img class="circle" id="odlawCirc" src="img/circle.png" alt="circle" />
+          <!-- </div> -->
+    
+          <button id="startbtn">Start</button>
+          <div id="btnBox">
+            <img
+              src="img/3017964_close_error_exit_failure_fill_icon.png"
+              id="closeBtn"
+              width="20px"
+              alt=""
+              srcset=""
+            />
+            <!-- Uh oh! Waldo's in a pickle! <br />
+            He has Christmas gifts for some of his friends but cannot seem find them
+            in all this chaos. Can you help him find them? <br />
+            Of course, youll need to help him find himself too! But don't worry,
+            he'll gift you with something special if you manage to help him! <br />
+            Search for <br /> -->
+    
+            ’Tis Christmas Eve and Waldo is on a quest, <br />
+            To find his friends and give them the best. <br />
+            Christmas gifts, wrapped up with care, <br />
+            Hidden in his pockets with love to share. <br />
+    
+            There lies the issue, you see? Try as he might, none of his friends are
+            in sight. <br />
+            He’s peered in windows, rang every bell. <br />
+            But still, his friends are nowhere to dwell.<br />
+            He’s started to wonder if he’s been naughty or nice. <br />
+            Has he done something to make them think twice? <br />
+    
+            But we can’t let Waldo spend Christmas all alone! <br />
+            So help locate Waldo and his 3 friends on the roam. <br />
+            <!-- Hidden in the scene, they’re scattered about, <br />
+            Waldo, Wizard, and Odlaw—find them, no doubt. <br />
+            Once all three are found, the quest will conclude, <br />
+            And the combination to the lock will be revealed to you.<br /> -->
+
+
+            As a thank you, Waldo will give you a gift <br />
+            A small token of appreciation, with a lift. <br />
+            <br />
+
+            <img class="icons" src="img/odlaw.jpeg" alt="odlawImg" />
+            <img class="icons" src="img/wenda.png" alt="wendaImg" />
+            <img class="icons" src="img/wizard.png" alt="wizard" />
+            <img class="icons" src="img/waldo.png" alt="waldoImg" />
+          </div>
+    
+          <div id="winBox">
+            <img
+              src="img/3017964_close_error_exit_failure_fill_icon.png"
+              id="closeBtnWin"
+              width="20px"
+              alt=""
+              srcset=""
+            />
+            Congratulations!! <br />
+            You’ve found Waldo’s friends and brought him so much cheer. <br />
+            For Christmas is finally here, and his friends are near. <br />
+    
+            To show his gratitude and love, oh so rare, <br />
+            Waldo will give you a gift created with care. <br />
+            But before you can claim it, there’s one final key: <br />
+            A combination you’ve earned to unlock the mystery.<br />
+            <br />
+    
+            So let us all take a lesson from this tale, <br />
+            To help our friends, without fail. <br />
+            For no matter how lost you might feel, <br />
+            With a little bit of faith, and a little bit of zeal, <br />
+            You too can find your way, back to the ones you love, <br />
+            Just like Waldo, on this special Christmas, above. <br />
+    
+          
+          </div>
+          <button id="restart">Restart</button>
+          <!-- <div id="test"></div> -->
+        </div>
+      </body>
+    
+      <!-- Script tags only below here -->
+      <script
+        src="https://code.jquery.com/jquery-3.6.2.js"
+        integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4="
+        crossorigin="anonymous"
+      ></script>
+    
+      <script type="text/javascript" src="waldo-data.js"></script>
+      <script type="text/javascript" src="waldo.js"></script>
 </body>
 </html>
+
